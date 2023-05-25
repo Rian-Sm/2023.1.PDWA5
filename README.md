@@ -5,7 +5,10 @@ Rian Santos Macedo  <rian.s@aluno.ifsp.edu.br>  \
 Prof. Quirino         <luiz.quirino@ifsp.edu.br>
 
 ## Descrição das etapas implementadas :
-- etapa 1 - xxx%
+- etapa 1 - Criar diretorio do projeto
+~~~sh
+npx create-react-app to-do-list
+~~~
 - etapa 2 - xxx%
 - etapa 3 - xxx%
 - ...
