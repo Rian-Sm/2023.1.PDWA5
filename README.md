@@ -1,7 +1,7 @@
 # 2023.1.PDWA5
 Repositório modelo para o projeto da disciplina de 2023.1 - PDWA5 - do IFSP
 
-Aluno Nome Sobrenome  <mail@aluno.ifsp.edu.br>  \
+Rian Santos Macedo  <rian.s@aluno.ifsp.edu.br>  \
 Prof. Quirino         <luiz.quirino@ifsp.edu.br>
 
 ## Descrição das etapas implementadas :
