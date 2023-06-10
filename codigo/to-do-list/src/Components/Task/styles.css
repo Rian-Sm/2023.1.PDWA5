@@ -4,10 +4,28 @@
     align-items: center;
 }
 
-.container {
+.container-task {
+    display: flex;
+    background-color: #444;
     justify-content: space-between;
-    background-color: #909090;
-    padding:10px 20px;
-    border-radius: 10px;
+    padding:0px 20px;
+    border-radius: 5px;
+    color: #eee;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
+.title {
+    width: 100%;
+}
+
+.button-container {
+    width:100%;
+    justify-content: space-between;
+}
+
+.button-display {
+    width: 40px;
+    background: none;
+    border: none;
 }
