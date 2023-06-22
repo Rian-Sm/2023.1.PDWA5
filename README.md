@@ -9,12 +9,17 @@ Prof. Quirino         <luiz.quirino@ifsp.edu.br>
 ~~~sh
 npx create-react-app to-do-list
 ~~~
-- etapa 2 - xxx%
-- etapa 3 - xxx%
-- ...
-  Use o readme para documentar o andamento do seu projeto.
+
+- etapa 2 - Adicionar componsentes de estilo 
+
+- etapa 3 - Adicionar acesso a API com Axios
 
 ## Alterações realizadas frente ao modelo de referência apresentado:
-- alteração xyz;
-- alteração xpto;
-- ...
+
+- alteração: Criado um projeto para buscar dados na API
+```
+https://github.com/Rian-Sm/demo-API-with-JSON/blob/master/db.json
+```
+
+- alteração Alterar estrutura da API para repositorio separado de 'servico'
+
