@@ -5,6 +5,8 @@ import AddTask from './Components/AddTask';
 import { v4 as uuidv4 } from 'uuid';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import TaskDetail from './Components/TaskDetail';
+import api from './Service/axios';
+import { useEffect } from 'react';
 
 
 function App() {
@@ -19,6 +21,19 @@ function App() {
       completed:true
     }
   ])
+
+  useEffect(()=>{
+    const fetchAPI = async () => {
+      const response = await api.get('Rian-Sm/demo-API-with-JSON/db');
+      setTasks(response.data.posts.map((post => {
+
+        return {...post, completed:true}
+      })));
+    }
+
+    fetchAPI();
+
+  }, [])
 
   const handleTaskAddition = (taskTitle) => {
     console.log("TESTE", taskTitle)
