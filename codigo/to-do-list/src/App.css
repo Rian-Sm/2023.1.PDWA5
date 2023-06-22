@@ -5,14 +5,22 @@
     width: 100vw;
   }
   
-  .Container {
-    width: 400px;
-    overflow: auto;
-    min-height: 300px;
-    border:2px solid chartreuse;
-    margin: 30px auto;
-    padding: 25px;
-    border-radius: 10px;
+.Container {
+  width: 400px;
+  overflow: auto;
+  min-height: 300px;
+  border:2px solid chartreuse;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 10px;
+  }
+
+.header{
+  width: 100%;
+  color: #d0d0d0;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  
   }
   
  
